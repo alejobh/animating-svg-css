@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 179.7 179.7" style="enable-background:new 0 0 179.7 179.7;" xml:space="preserve">
+  <style type="text/css">
+    .st0{fill:#0540F2;}
+    .st1{opacity:0.52;fill:url(#left-shadow-fill);}
+    .st2{fill:url(#left-triangle-fill);}
+    .st3{opacity:0.52;fill:url(#middle-shadow-fill);}
+    .st4{fill:url(#middle-triangle-fill);}
+    .st5{opacity:0.52;fill:url(#right-shadow-fill);}
+    .st6{fill:url(#right-triangle-fill);}
+  </style>
+  <circle id="circle-background" class="st0" cx="90.2" cy="89.6" r="89.8"/>
+  <linearGradient id="left-shadow-fill" gradientUnits="userSpaceOnUse" x1="40.5481" y1="83.5625" x2="54.4992" y2="141.4597">
+    <stop  offset="0.2366" style="stop-color:#000000"/>
+    <stop  offset="0.6922" style="stop-color:#000000;stop-opacity:0"/>
+  </linearGradient>
+  <polygon id="left-shadow" class="st1" points="21,98.3 41.5,132.9 74,126.4 42.6,72.3 "/>
+  <linearGradient id="left-triangle-fill" gradientUnits="userSpaceOnUse" x1="38.9673" y1="99.6841" x2="38.9673" y2="71.1989">
+    <stop  offset="0" style="stop-color:#0540F2"/>
+    <stop  offset="1" style="stop-color:#2C90F5"/>
+  </linearGradient>
+  <polygon id="left-triangle" class="st2" points="39,65.4 48.5,81.9 58,98.4 39,98.4 19.9,98.4 29.4,81.9 "/>
+  <linearGradient id="middle-shadow-fill" gradientUnits="userSpaceOnUse" x1="92.9491" y1="84.9275" x2="126.3619" y2="119.5627">
+    <stop  offset="0.1681" style="stop-color:#000000"/>
+    <stop  offset="0.8432" style="stop-color:#000000;stop-opacity:0"/>
+  </linearGradient>
+  <polygon id="middle-shadow" class="st3" points="90.2,116.7 118.3,161 159.4,119.9 120.5,63.7 "/>
+  <linearGradient id="middle-triangle-fill" gradientUnits="userSpaceOnUse" x1="90.206" y1="69.9064" x2="90.206" y2="113.4951">
+    <stop  offset="1.475020e-02" style="stop-color:#43DCC9"/>
+    <stop  offset="0.9676" style="stop-color:#05F2C7"/>
+  </linearGradient>
+  <polygon id="middle-triangle" class="st4" points="90.2,116.2 74.9,89.6 59.5,63.1 90.2,63.1 120.9,63.1 105.5,89.6 "/>
+  <linearGradient id="right-shadow-fill" gradientUnits="userSpaceOnUse" x1="141.4086" y1="81.9839" x2="150.5988" y2="120.1231">
+    <stop  offset="0.1681" style="stop-color:#000000"/>
+    <stop  offset="0.9" style="stop-color:#000000;stop-opacity:0"/>
+  </linearGradient>
+  <polygon id="right-shadow" class="st5" points="123.7,98.2 138.9,123.1 171.3,116.6 145.4,72.2 "/>
+  <linearGradient id="right-triangle-fill" gradientUnits="userSpaceOnUse" x1="141.7124" y1="99.5722" x2="141.7124" y2="71.087">
+    <stop  offset="0" style="stop-color:#0540F2"/>
+    <stop  offset="1" style="stop-color:#2C90F5"/>
+  </linearGradient>
+  <polygon id="right-triangle" class="st6" points="141.7,65.3 151.2,81.8 160.8,98.3 141.7,98.3 122.7,98.3 132.2,81.8 "/>
+</svg>
