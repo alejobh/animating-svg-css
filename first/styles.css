@@ -1,0 +1,143 @@
+:root {
+  --heart-color: #95E5D8;
+  --letter-color: #FFFFFF;
+  --background: #002851;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: var(--background);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+#we .st0 {
+  fill: none;
+  stroke: var(--letter-color);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1;
+}
+
+#letter-w {
+  stroke-dasharray: 445.097900390625;
+  stroke-dashoffset: 445.097900390625;
+  animation: outline 0.5s ease forwards, filling-letter 0.5s ease-in forwards 0.5s;
+}
+
+#letter-e {
+  stroke-dasharray: 313.3379821777344;
+  stroke-dashoffset: 313.3379821777344;
+  animation: outline 0.5s ease forwards 0.5s, filling-letter 0.5s ease-in forwards 1s;
+}
+
+#heart-fill {
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#heart-fill {
+  fill: transparent;
+  stroke-dasharray: 285.33770751953125;
+  stroke-dashoffset: 285.33770751953125;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: var(--heart-color);
+  animation: outline 1s ease forwards 1s, filling-heart 1s ease forwards 2s, beat 1.2s infinite 5s;
+}
+
+#letter-c {
+  stroke-dasharray: 266.71673583984375;
+  stroke-dashoffset: 266.71673583984375;
+  animation: outline 0.5s ease forwards 2s, filling-letter 0.5s ease-in forwards 2.5s;
+}
+
+#letter-o {
+  stroke-dasharray: 320.877685546875;
+  stroke-dashoffset: 320.877685546875;
+  animation: outline 0.5s ease forwards 2.5s, filling-letter 0.5s ease-in forwards 3s;
+}
+
+#letter-d {
+  stroke-dasharray: 330.638427734375;
+  stroke-dashoffset: 330.638427734375;
+  animation: outline 0.5s ease forwards 3s, filling-letter 0.5s ease-in forwards 3.5s;
+}
+
+#letter-i {
+  stroke-dasharray: 142.28990173339844;
+  stroke-dashoffset: 142.28990173339844;
+  animation: outline 0.5s ease forwards 3.5s, filling-letter 0.5s ease-in forwards 4s;
+}
+
+#letter-n {
+  stroke-dasharray: 335.66949462890625;
+  stroke-dashoffset: 335.66949462890625;
+  animation: outline 0.5s ease forwards 4s, filling-letter 0.5s ease-in forwards 4.5s;
+}
+
+#letter-g {
+  stroke-dasharray: 339.2660827636719;
+  stroke-dashoffset: 339.2660827636719;
+  animation: outline 0.5s ease forwards 4.5s, filling-letter 0.5s ease-in forwards 5s;
+}
+
+@keyframes outline {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes filling-letter {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: var(--letter-color);
+  }
+} 
+
+@keyframes filling-heart {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: var(--heart-color);
+  }
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.97);
+  }
+  35% {
+    transform: scale(0.9);
+  }
+  45% {
+    transform: scale(1.1);
+  }
+  55% {
+    transform: scale(0.9);
+  }
+  65% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
