@@ -4,19 +4,15 @@ for(let i = 0; i< logo.length; i++) {
   console.log(`Element ${i+1} is ${logo[i].getTotalLength()} ${logo[i]}`)
 }
 
-var soundFile = document.createElement("audio");
-soundFile.preload = "auto";
+const audio = document.getElementById('audio');
+audio.currentTime = 0.0;
+audio.volume = 0.3;
 
-var audio = document.createElement("source");
-audio.src = "sound.mp3";
-soundFile.appendChild(audio);
-
-soundFile.load();
-soundFile.volume = 0.0;
-
-document.getElementById('sound').addEventListener('click', () => {
-  soundFile.currentTime = 0.0;
-  soundFile.volume = 0.3;
-  soundFile.play();
-})
+document.getElementById('audio-btn').addEventListener('click', () => {
+  if(audio.paused){
+    audio.play();
+  } else {
+    audio.pause();
+  }
+});
 
