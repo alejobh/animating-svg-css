@@ -9,3 +9,6 @@ This project was made for Medellín CSS community workshop called "Animando SVG 
 
 ### Second exercise
 We have a pretty nice illustration, the idea is to animate all the illustration with a chill vibe :3
+
+### Music
+Sleepy Cat - Alejandro Magaña (A. M.) - [Source](https://mixkit.co/free-stock-music/tag/lo-fi/)
