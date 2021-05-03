@@ -12,3 +12,10 @@ The idea is to animate the phrase by animating a heart beat and the letters.
 
 ### Second exercise
 We have a pretty nice illustration, the idea is to animate all the illustration with a chill vibe :3
+
+### Group exercise
+We will have fun together, you will have a randomly generated team. 
+You will have to work in the `group-option-#` where `#` will be given to you and your team.
+When you know the number, the steps are the same.
+The idea is to create an animation for the logo, blow up your imagination and show us your team's creation.
+Remember this is not a contest, just enjoy and apply what you learnt.
