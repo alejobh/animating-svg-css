@@ -19,3 +19,10 @@ You will have to work in the `group-option-#` where `#` will be given to you and
 When you know the number, the steps are the same.  
 The idea is to create an animation for the logo, blow up your imagination and show us your team's creation.  
 Remember this is not a contest, just enjoy and apply what you learnt.
+
+## Special Thanks
+* **Medellín CSS** Team for giving the opportunity to spread knowledge.
+* **Agustina Chaves** for all the SVG illustrations, the great ideas and the pattience.
+* **Gisela Grajales** for being the first referent and given me so many ideas.
+* **Aixa Guerra** for coordinating with Medellín CSS team
+* **Wolox** for teaching me and all the time invested.
