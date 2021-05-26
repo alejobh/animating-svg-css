@@ -44,8 +44,8 @@ body {
 
 #head {
   animation: move-head infinite 0.9s;
-  transform-origin: center;
   transform-box: fill-box;
+  transform-origin: center;
 }
 
 @keyframes move-head {
@@ -63,8 +63,8 @@ body {
 
 #left-feet {
   animation: move-left-feet infinite 0.43s alternate;
-  transform-origin: center;
   transform-box: fill-box;
+  transform-origin: center;
 }
 
 @keyframes move-left-feet {
@@ -102,16 +102,16 @@ body {
 #top-left-leaf,
 #bottom-left-leaf {
   animation: left-leafs-wind infinite 4s var(--wind-function) 1s;
-  transform-origin: center;
   transform-box: fill-box;
+  transform-origin: center;
 }
 
 #top-right-leaf,
 #middle-right-leaf,
 #bottom-right-leaf {
   animation: right-leafs-wind infinite 4.2s var(--wind-function) 1.2s;
-  transform-origin: center;
   transform-box: fill-box;
+  transform-origin: center;
 }
 
 @keyframes left-leafs-wind {
@@ -170,8 +170,8 @@ body {
 
 #keyboard-lines {
   animation: rbg-lights infinite 5s ease-out;
-  transform-origin: center;
   transform-box: fill-box;
+  transform-origin: center;
 }
 
 @keyframes rbg-lights {
