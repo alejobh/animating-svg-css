@@ -4,7 +4,7 @@ This project was made for Medellín CSS community workshop called "Animando SVG 
 ## Steps
 * Clone the project.
 * When working on an exercise you have to copy the content inside the SVG file and paste it inside the `body` tag.
-* Modify all the id's as you place.
+* Modify all the id's as you please.
 * Start making magic and having fun on `styles.css` file :3
 
 ### First exercise
@@ -17,7 +17,7 @@ We have a pretty nice illustration, the idea is to animate all the illustration 
 We will have fun together, you will have a randomly generated team.  
 You will have to work in the `group-option-#` where `#` will be given to you and your team.  
 When you know the number, the steps are the same.  
-The idea is to create an animation for the logo, blow up your imagination and show us your team's creation.  
+The idea is to create an animation for the logo, let your imagination run wild and show us your team's creation.  
 Remember this is not a contest, just enjoy and apply what you learnt.
 
 ## Special Thanks
