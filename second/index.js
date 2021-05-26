@@ -5,7 +5,7 @@ for(let i = 0; i< logo.length; i++) {
 }
 
 const audio = document.getElementById('audio');
-audio.volume = 0.2;
+audio.volume = 0.08;
 
 function play(){
   if(audio.paused){
