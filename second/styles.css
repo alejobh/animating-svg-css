@@ -25,6 +25,11 @@ body {
   width: 100%;
 }
 
+#image {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
 #audio-btn {
   background-color: transparent;
   border: 1px solid var(--desktop);
