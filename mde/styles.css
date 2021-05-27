@@ -64,11 +64,13 @@ body {
 @keyframes triangles-appear {
   30% {
     opacity: 1;
-    transform: rotateX(180deg);
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
   }
   60% {
-    opacity: 1;
-    transform: rotateX(0deg);
+    transform: scale(1);
   }
   90% {
     opacity: 1;
